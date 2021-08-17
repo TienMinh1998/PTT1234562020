@@ -31,66 +31,47 @@ namespace ApplicationCotLechTamPhang
         {
             this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frm_tietdiencot));
-            this.GunaAdvenceButton6 = new Guna.UI.WinForms.GunaAdvenceButton();
             this.groupBox2 = new System.Windows.Forms.GroupBox();
-            this.txt_h = new System.Windows.Forms.Label();
+            this.panel2 = new System.Windows.Forms.Panel();
+            this.panel1 = new System.Windows.Forms.Panel();
             this.txt_b = new System.Windows.Forms.Label();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.label2 = new System.Windows.Forms.Label();
             this.label12 = new System.Windows.Forms.Label();
+            this.txt_chieu_Dai_cot = new Guna.UI2.WinForms.Guna2TextBox();
             this.label1 = new System.Windows.Forms.Label();
             this.txt_chieu_rong_tiet_dien = new Guna.UI2.WinForms.Guna2TextBox();
-            this.label16 = new System.Windows.Forms.Label();
             this.txt_chieu_cao_tiet_dien = new Guna.UI2.WinForms.Guna2TextBox();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
-            this.panel1 = new System.Windows.Forms.Panel();
-            this.pictureBox2 = new System.Windows.Forms.PictureBox();
+            this.txt_h = new System.Windows.Forms.Label();
+            this.label16 = new System.Windows.Forms.Label();
             this.gunaDragControl1 = new Guna.UI.WinForms.GunaDragControl(this.components);
             this.gunaElipsePanel1 = new Guna.UI.WinForms.GunaElipsePanel();
             this.guna2DragControl1 = new Guna.UI2.WinForms.Guna2DragControl(this.components);
             this.btn_ok = new Guna.UI2.WinForms.Guna2Button();
-            this.txt_chieu_Dai_cot = new Guna.UI2.WinForms.Guna2TextBox();
-            this.label2 = new System.Windows.Forms.Label();
-            this.panel2 = new System.Windows.Forms.Panel();
+            this.pictureBox2 = new System.Windows.Forms.PictureBox();
+            this.GunaAdvenceButton6 = new Guna.UI.WinForms.GunaAdvenceButton();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.label9 = new System.Windows.Forms.Label();
+            this.label3 = new System.Windows.Forms.Label();
+            this.label4 = new System.Windows.Forms.Label();
+            this.label5 = new System.Windows.Forms.Label();
+            this.label6 = new System.Windows.Forms.Label();
+            this.label7 = new System.Windows.Forms.Label();
             this.groupBox2.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.groupBox1.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             this.gunaElipsePanel1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
-            // 
-            // GunaAdvenceButton6
-            // 
-            this.GunaAdvenceButton6.AnimationHoverSpeed = 0.07F;
-            this.GunaAdvenceButton6.AnimationSpeed = 0.03F;
-            this.GunaAdvenceButton6.BaseColor = System.Drawing.Color.Transparent;
-            this.GunaAdvenceButton6.BorderColor = System.Drawing.Color.Black;
-            this.GunaAdvenceButton6.CheckedBaseColor = System.Drawing.Color.Gray;
-            this.GunaAdvenceButton6.CheckedBorderColor = System.Drawing.Color.Black;
-            this.GunaAdvenceButton6.CheckedForeColor = System.Drawing.Color.White;
-            this.GunaAdvenceButton6.CheckedImage = ((System.Drawing.Image)(resources.GetObject("GunaAdvenceButton6.CheckedImage")));
-            this.GunaAdvenceButton6.CheckedLineColor = System.Drawing.Color.DimGray;
-            this.GunaAdvenceButton6.DialogResult = System.Windows.Forms.DialogResult.None;
-            this.GunaAdvenceButton6.FocusedColor = System.Drawing.Color.Empty;
-            this.GunaAdvenceButton6.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.GunaAdvenceButton6.ForeColor = System.Drawing.Color.White;
-            this.GunaAdvenceButton6.Image = ((System.Drawing.Image)(resources.GetObject("GunaAdvenceButton6.Image")));
-            this.GunaAdvenceButton6.ImageAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            this.GunaAdvenceButton6.ImageSize = new System.Drawing.Size(17, 17);
-            this.GunaAdvenceButton6.LineColor = System.Drawing.Color.FromArgb(((int)(((byte)(66)))), ((int)(((byte)(58)))), ((int)(((byte)(170)))));
-            this.GunaAdvenceButton6.Location = new System.Drawing.Point(756, 0);
-            this.GunaAdvenceButton6.Name = "GunaAdvenceButton6";
-            this.GunaAdvenceButton6.OnHoverBaseColor = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(181)))), ((int)(((byte)(66)))));
-            this.GunaAdvenceButton6.OnHoverBorderColor = System.Drawing.Color.Black;
-            this.GunaAdvenceButton6.OnHoverForeColor = System.Drawing.Color.White;
-            this.GunaAdvenceButton6.OnHoverImage = null;
-            this.GunaAdvenceButton6.OnHoverLineColor = System.Drawing.Color.FromArgb(((int)(((byte)(66)))), ((int)(((byte)(58)))), ((int)(((byte)(170)))));
-            this.GunaAdvenceButton6.OnPressedColor = System.Drawing.Color.Black;
-            this.GunaAdvenceButton6.Size = new System.Drawing.Size(34, 29);
-            this.GunaAdvenceButton6.TabIndex = 5;
-            this.GunaAdvenceButton6.Click += new System.EventHandler(this.GunaAdvenceButton6_Click);
             // 
             // groupBox2
             // 
+            this.groupBox2.Controls.Add(this.label7);
+            this.groupBox2.Controls.Add(this.label5);
+            this.groupBox2.Controls.Add(this.label3);
+            this.groupBox2.Controls.Add(this.label6);
+            this.groupBox2.Controls.Add(this.label4);
+            this.groupBox2.Controls.Add(this.label9);
             this.groupBox2.Controls.Add(this.panel2);
             this.groupBox2.Controls.Add(this.panel1);
             this.groupBox2.Controls.Add(this.txt_b);
@@ -110,17 +91,21 @@ namespace ApplicationCotLechTamPhang
             this.groupBox2.TabIndex = 24;
             this.groupBox2.TabStop = false;
             // 
-            // txt_h
+            // panel2
             // 
-            this.txt_h.Anchor = System.Windows.Forms.AnchorStyles.Top;
-            this.txt_h.AutoSize = true;
-            this.txt_h.Font = new System.Drawing.Font("Tahoma", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txt_h.ForeColor = System.Drawing.Color.YellowGreen;
-            this.txt_h.Location = new System.Drawing.Point(21, 112);
-            this.txt_h.Name = "txt_h";
-            this.txt_h.Size = new System.Drawing.Size(22, 23);
-            this.txt_h.TabIndex = 18;
-            this.txt_h.Text = "0";
+            this.panel2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
+            this.panel2.Location = new System.Drawing.Point(28, 290);
+            this.panel2.Name = "panel2";
+            this.panel2.Size = new System.Drawing.Size(379, 1);
+            this.panel2.TabIndex = 22;
+            // 
+            // panel1
+            // 
+            this.panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
+            this.panel1.Location = new System.Drawing.Point(28, 160);
+            this.panel1.Name = "panel1";
+            this.panel1.Size = new System.Drawing.Size(379, 1);
+            this.panel1.TabIndex = 22;
             // 
             // txt_b
             // 
@@ -134,33 +119,61 @@ namespace ApplicationCotLechTamPhang
             this.txt_b.TabIndex = 18;
             this.txt_b.Text = "0";
             // 
-            // pictureBox1
+            // label2
             // 
-            this.pictureBox1.Image = global::ApplicationCotLechTamPhang.Properties.Resources.Capture;
-            this.pictureBox1.Location = new System.Drawing.Point(535, 48);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(142, 184);
-            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox1.TabIndex = 8;
-            this.pictureBox1.TabStop = false;
+            this.label2.AutoSize = true;
+            this.label2.Font = new System.Drawing.Font("Tahoma", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
+            this.label2.Location = new System.Drawing.Point(24, 299);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(196, 23);
+            this.label2.TabIndex = 17;
+            this.label2.Text = "3. Nhập chiều dài cột.";
             // 
             // label12
             // 
             this.label12.AutoSize = true;
             this.label12.Font = new System.Drawing.Font("Tahoma", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label12.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
-            this.label12.Location = new System.Drawing.Point(40, 185);
+            this.label12.Location = new System.Drawing.Point(24, 167);
             this.label12.Name = "label12";
             this.label12.Size = new System.Drawing.Size(253, 23);
             this.label12.TabIndex = 17;
             this.label12.Text = "2. Nhập chiều rộng tiết diện.";
+            // 
+            // txt_chieu_Dai_cot
+            // 
+            this.txt_chieu_Dai_cot.BorderRadius = 15;
+            this.txt_chieu_Dai_cot.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.txt_chieu_Dai_cot.DefaultText = "";
+            this.txt_chieu_Dai_cot.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
+            this.txt_chieu_Dai_cot.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
+            this.txt_chieu_Dai_cot.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.txt_chieu_Dai_cot.DisabledState.Parent = this.txt_chieu_Dai_cot;
+            this.txt_chieu_Dai_cot.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.txt_chieu_Dai_cot.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.txt_chieu_Dai_cot.FocusedState.Parent = this.txt_chieu_Dai_cot;
+            this.txt_chieu_Dai_cot.Font = new System.Drawing.Font("Segoe UI Semibold", 12F, System.Drawing.FontStyle.Bold);
+            this.txt_chieu_Dai_cot.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.txt_chieu_Dai_cot.HoverState.Parent = this.txt_chieu_Dai_cot;
+            this.txt_chieu_Dai_cot.Location = new System.Drawing.Point(87, 386);
+            this.txt_chieu_Dai_cot.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.txt_chieu_Dai_cot.Name = "txt_chieu_Dai_cot";
+            this.txt_chieu_Dai_cot.PasswordChar = '\0';
+            this.txt_chieu_Dai_cot.PlaceholderText = "nhập chiều cao cột...";
+            this.txt_chieu_Dai_cot.SelectedText = "";
+            this.txt_chieu_Dai_cot.ShadowDecoration.Parent = this.txt_chieu_Dai_cot;
+            this.txt_chieu_Dai_cot.Size = new System.Drawing.Size(276, 36);
+            this.txt_chieu_Dai_cot.TabIndex = 6;
+            this.txt_chieu_Dai_cot.TextChanged += new System.EventHandler(this.txt_chieu_Dai_cot_TextChanged);
+            this.txt_chieu_Dai_cot.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txt_chieu_cao_tiet_dien_KeyPress);
             // 
             // label1
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Tahoma", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
-            this.label1.Location = new System.Drawing.Point(40, 42);
+            this.label1.Location = new System.Drawing.Point(24, 26);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(243, 23);
             this.label1.TabIndex = 17;
@@ -181,7 +194,7 @@ namespace ApplicationCotLechTamPhang
             this.txt_chieu_rong_tiet_dien.Font = new System.Drawing.Font("Segoe UI Semibold", 12F, System.Drawing.FontStyle.Bold);
             this.txt_chieu_rong_tiet_dien.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.txt_chieu_rong_tiet_dien.HoverState.Parent = this.txt_chieu_rong_tiet_dien;
-            this.txt_chieu_rong_tiet_dien.Location = new System.Drawing.Point(87, 230);
+            this.txt_chieu_rong_tiet_dien.Location = new System.Drawing.Point(87, 244);
             this.txt_chieu_rong_tiet_dien.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.txt_chieu_rong_tiet_dien.Name = "txt_chieu_rong_tiet_dien";
             this.txt_chieu_rong_tiet_dien.PasswordChar = '\0';
@@ -192,17 +205,6 @@ namespace ApplicationCotLechTamPhang
             this.txt_chieu_rong_tiet_dien.TabIndex = 6;
             this.txt_chieu_rong_tiet_dien.TextChanged += new System.EventHandler(this.txt_chieu_rong_tiet_dien_TextChanged);
             this.txt_chieu_rong_tiet_dien.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txt_chieu_cao_tiet_dien_KeyPress);
-            // 
-            // label16
-            // 
-            this.label16.AutoSize = true;
-            this.label16.Font = new System.Drawing.Font("Tahoma", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label16.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
-            this.label16.Location = new System.Drawing.Point(50, 5);
-            this.label16.Name = "label16";
-            this.label16.Size = new System.Drawing.Size(189, 25);
-            this.label16.TabIndex = 20;
-            this.label16.Text = "*  Chọn Tiết Diện";
             // 
             // txt_chieu_cao_tiet_dien
             // 
@@ -219,7 +221,7 @@ namespace ApplicationCotLechTamPhang
             this.txt_chieu_cao_tiet_dien.Font = new System.Drawing.Font("Segoe UI Semibold", 12F, System.Drawing.FontStyle.Bold);
             this.txt_chieu_cao_tiet_dien.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.txt_chieu_cao_tiet_dien.HoverState.Parent = this.txt_chieu_cao_tiet_dien;
-            this.txt_chieu_cao_tiet_dien.Location = new System.Drawing.Point(87, 88);
+            this.txt_chieu_cao_tiet_dien.Location = new System.Drawing.Point(87, 110);
             this.txt_chieu_cao_tiet_dien.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.txt_chieu_cao_tiet_dien.Name = "txt_chieu_cao_tiet_dien";
             this.txt_chieu_cao_tiet_dien.PasswordChar = '\0';
@@ -240,23 +242,28 @@ namespace ApplicationCotLechTamPhang
             this.groupBox1.TabIndex = 21;
             this.groupBox1.TabStop = false;
             // 
-            // panel1
+            // txt_h
             // 
-            this.panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
-            this.panel1.Location = new System.Drawing.Point(28, 160);
-            this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(379, 1);
-            this.panel1.TabIndex = 22;
+            this.txt_h.Anchor = System.Windows.Forms.AnchorStyles.Top;
+            this.txt_h.AutoSize = true;
+            this.txt_h.Font = new System.Drawing.Font("Tahoma", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txt_h.ForeColor = System.Drawing.Color.YellowGreen;
+            this.txt_h.Location = new System.Drawing.Point(21, 112);
+            this.txt_h.Name = "txt_h";
+            this.txt_h.Size = new System.Drawing.Size(22, 23);
+            this.txt_h.TabIndex = 18;
+            this.txt_h.Text = "0";
             // 
-            // pictureBox2
+            // label16
             // 
-            this.pictureBox2.Image = global::ApplicationCotLechTamPhang.Properties.Resources.microsoft_stream_2019_96px;
-            this.pictureBox2.Location = new System.Drawing.Point(12, 0);
-            this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(34, 33);
-            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox2.TabIndex = 25;
-            this.pictureBox2.TabStop = false;
+            this.label16.AutoSize = true;
+            this.label16.Font = new System.Drawing.Font("Tahoma", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label16.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
+            this.label16.Location = new System.Drawing.Point(50, 5);
+            this.label16.Name = "label16";
+            this.label16.Size = new System.Drawing.Size(189, 25);
+            this.label16.TabIndex = 20;
+            this.label16.Text = "*  Chọn Tiết Diện";
             // 
             // gunaDragControl1
             // 
@@ -297,51 +304,128 @@ namespace ApplicationCotLechTamPhang
             this.btn_ok.Text = "OK";
             this.btn_ok.Click += new System.EventHandler(this.btn_ok_Click);
             // 
-            // txt_chieu_Dai_cot
+            // pictureBox2
             // 
-            this.txt_chieu_Dai_cot.BorderRadius = 15;
-            this.txt_chieu_Dai_cot.Cursor = System.Windows.Forms.Cursors.IBeam;
-            this.txt_chieu_Dai_cot.DefaultText = "";
-            this.txt_chieu_Dai_cot.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
-            this.txt_chieu_Dai_cot.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
-            this.txt_chieu_Dai_cot.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
-            this.txt_chieu_Dai_cot.DisabledState.Parent = this.txt_chieu_Dai_cot;
-            this.txt_chieu_Dai_cot.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
-            this.txt_chieu_Dai_cot.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.txt_chieu_Dai_cot.FocusedState.Parent = this.txt_chieu_Dai_cot;
-            this.txt_chieu_Dai_cot.Font = new System.Drawing.Font("Segoe UI Semibold", 12F, System.Drawing.FontStyle.Bold);
-            this.txt_chieu_Dai_cot.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.txt_chieu_Dai_cot.HoverState.Parent = this.txt_chieu_Dai_cot;
-            this.txt_chieu_Dai_cot.Location = new System.Drawing.Point(87, 360);
-            this.txt_chieu_Dai_cot.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
-            this.txt_chieu_Dai_cot.Name = "txt_chieu_Dai_cot";
-            this.txt_chieu_Dai_cot.PasswordChar = '\0';
-            this.txt_chieu_Dai_cot.PlaceholderText = "nhập chiều cao cột...";
-            this.txt_chieu_Dai_cot.SelectedText = "";
-            this.txt_chieu_Dai_cot.ShadowDecoration.Parent = this.txt_chieu_Dai_cot;
-            this.txt_chieu_Dai_cot.Size = new System.Drawing.Size(276, 36);
-            this.txt_chieu_Dai_cot.TabIndex = 6;
-            this.txt_chieu_Dai_cot.TextChanged += new System.EventHandler(this.txt_chieu_Dai_cot_TextChanged);
-            this.txt_chieu_Dai_cot.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txt_chieu_cao_tiet_dien_KeyPress);
+            this.pictureBox2.Image = global::ApplicationCotLechTamPhang.Properties.Resources.microsoft_stream_2019_96px;
+            this.pictureBox2.Location = new System.Drawing.Point(12, 0);
+            this.pictureBox2.Name = "pictureBox2";
+            this.pictureBox2.Size = new System.Drawing.Size(34, 33);
+            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox2.TabIndex = 25;
+            this.pictureBox2.TabStop = false;
             // 
-            // label2
+            // GunaAdvenceButton6
             // 
-            this.label2.AutoSize = true;
-            this.label2.Font = new System.Drawing.Font("Tahoma", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
-            this.label2.Location = new System.Drawing.Point(40, 315);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(196, 23);
-            this.label2.TabIndex = 17;
-            this.label2.Text = "3. Nhập chiều dài cột.";
+            this.GunaAdvenceButton6.AnimationHoverSpeed = 0.07F;
+            this.GunaAdvenceButton6.AnimationSpeed = 0.03F;
+            this.GunaAdvenceButton6.BaseColor = System.Drawing.Color.Transparent;
+            this.GunaAdvenceButton6.BorderColor = System.Drawing.Color.Black;
+            this.GunaAdvenceButton6.CheckedBaseColor = System.Drawing.Color.Gray;
+            this.GunaAdvenceButton6.CheckedBorderColor = System.Drawing.Color.Black;
+            this.GunaAdvenceButton6.CheckedForeColor = System.Drawing.Color.White;
+            this.GunaAdvenceButton6.CheckedImage = ((System.Drawing.Image)(resources.GetObject("GunaAdvenceButton6.CheckedImage")));
+            this.GunaAdvenceButton6.CheckedLineColor = System.Drawing.Color.DimGray;
+            this.GunaAdvenceButton6.DialogResult = System.Windows.Forms.DialogResult.None;
+            this.GunaAdvenceButton6.FocusedColor = System.Drawing.Color.Empty;
+            this.GunaAdvenceButton6.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.GunaAdvenceButton6.ForeColor = System.Drawing.Color.White;
+            this.GunaAdvenceButton6.Image = ((System.Drawing.Image)(resources.GetObject("GunaAdvenceButton6.Image")));
+            this.GunaAdvenceButton6.ImageAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.GunaAdvenceButton6.ImageSize = new System.Drawing.Size(17, 17);
+            this.GunaAdvenceButton6.LineColor = System.Drawing.Color.FromArgb(((int)(((byte)(66)))), ((int)(((byte)(58)))), ((int)(((byte)(170)))));
+            this.GunaAdvenceButton6.Location = new System.Drawing.Point(756, 0);
+            this.GunaAdvenceButton6.Name = "GunaAdvenceButton6";
+            this.GunaAdvenceButton6.OnHoverBaseColor = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(181)))), ((int)(((byte)(66)))));
+            this.GunaAdvenceButton6.OnHoverBorderColor = System.Drawing.Color.Black;
+            this.GunaAdvenceButton6.OnHoverForeColor = System.Drawing.Color.White;
+            this.GunaAdvenceButton6.OnHoverImage = null;
+            this.GunaAdvenceButton6.OnHoverLineColor = System.Drawing.Color.FromArgb(((int)(((byte)(66)))), ((int)(((byte)(58)))), ((int)(((byte)(170)))));
+            this.GunaAdvenceButton6.OnPressedColor = System.Drawing.Color.Black;
+            this.GunaAdvenceButton6.Size = new System.Drawing.Size(34, 29);
+            this.GunaAdvenceButton6.TabIndex = 5;
+            this.GunaAdvenceButton6.Click += new System.EventHandler(this.GunaAdvenceButton6_Click);
             // 
-            // panel2
+            // pictureBox1
             // 
-            this.panel2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
-            this.panel2.Location = new System.Drawing.Point(28, 290);
-            this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(379, 1);
-            this.panel2.TabIndex = 22;
+            this.pictureBox1.Image = global::ApplicationCotLechTamPhang.Properties.Resources.Capture;
+            this.pictureBox1.Location = new System.Drawing.Point(535, 48);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(142, 184);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox1.TabIndex = 8;
+            this.pictureBox1.TabStop = false;
+            // 
+            // label9
+            // 
+            this.label9.AutoSize = true;
+            this.label9.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(46)))), ((int)(((byte)(120)))), ((int)(((byte)(150)))));
+            this.label9.Font = new System.Drawing.Font("Tahoma", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label9.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
+            this.label9.Location = new System.Drawing.Point(84, 55);
+            this.label9.Name = "label9";
+            this.label9.Size = new System.Drawing.Size(237, 16);
+            this.label9.TabIndex = 23;
+            this.label9.Text = "+ Nhập vào chiều cao của tiết diện.";
+            // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(46)))), ((int)(((byte)(120)))), ((int)(((byte)(150)))));
+            this.label3.Font = new System.Drawing.Font("Tahoma", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
+            this.label3.Location = new System.Drawing.Point(84, 78);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(110, 16);
+            this.label3.TabIndex = 23;
+            this.label3.Text = "+ Đơn Vị là mm.";
+            // 
+            // label4
+            // 
+            this.label4.AutoSize = true;
+            this.label4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(46)))), ((int)(((byte)(120)))), ((int)(((byte)(150)))));
+            this.label4.Font = new System.Drawing.Font("Tahoma", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label4.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
+            this.label4.Location = new System.Drawing.Point(84, 194);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(226, 16);
+            this.label4.TabIndex = 23;
+            this.label4.Text = "+ Nhập vào bề rộng của tiết diện.";
+            // 
+            // label5
+            // 
+            this.label5.AutoSize = true;
+            this.label5.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(46)))), ((int)(((byte)(120)))), ((int)(((byte)(150)))));
+            this.label5.Font = new System.Drawing.Font("Tahoma", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label5.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
+            this.label5.Location = new System.Drawing.Point(84, 216);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(110, 16);
+            this.label5.TabIndex = 23;
+            this.label5.Text = "+ Đơn Vị là mm.";
+            // 
+            // label6
+            // 
+            this.label6.AutoSize = true;
+            this.label6.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(46)))), ((int)(((byte)(120)))), ((int)(((byte)(150)))));
+            this.label6.Font = new System.Drawing.Font("Tahoma", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label6.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
+            this.label6.Location = new System.Drawing.Point(84, 327);
+            this.label6.Name = "label6";
+            this.label6.Size = new System.Drawing.Size(200, 16);
+            this.label6.TabIndex = 23;
+            this.label6.Text = "+ Nhập vào chiều dài của cột.";
+            // 
+            // label7
+            // 
+            this.label7.AutoSize = true;
+            this.label7.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(46)))), ((int)(((byte)(120)))), ((int)(((byte)(150)))));
+            this.label7.Font = new System.Drawing.Font("Tahoma", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label7.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
+            this.label7.Location = new System.Drawing.Point(84, 352);
+            this.label7.Name = "label7";
+            this.label7.Size = new System.Drawing.Size(110, 16);
+            this.label7.TabIndex = 23;
+            this.label7.Text = "+ Đơn Vị là mm.";
             // 
             // frm_tietdiencot
             // 
@@ -358,12 +442,12 @@ namespace ApplicationCotLechTamPhang
             this.Text = "frm_tietdiencot";
             this.groupBox2.ResumeLayout(false);
             this.groupBox2.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             this.gunaElipsePanel1.ResumeLayout(false);
             this.gunaElipsePanel1.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -390,5 +474,11 @@ namespace ApplicationCotLechTamPhang
         private System.Windows.Forms.Panel panel2;
         private System.Windows.Forms.Label label2;
         private Guna.UI2.WinForms.Guna2TextBox txt_chieu_Dai_cot;
+        private System.Windows.Forms.Label label7;
+        private System.Windows.Forms.Label label5;
+        private System.Windows.Forms.Label label3;
+        private System.Windows.Forms.Label label6;
+        private System.Windows.Forms.Label label4;
+        private System.Windows.Forms.Label label9;
     }
 }

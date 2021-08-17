@@ -15,7 +15,7 @@ namespace ApplicationCotLechTamPhang
         {
             CuongDoChiuNen_Rb = 11.5;
             CuongDOChiuKeo_Rbt = 0.90;
-            EB = 2700000;
+            EB = 27.5;
             name = "B20";
             donvi = "Mpa";
         }

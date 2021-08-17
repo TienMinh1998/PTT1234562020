@@ -98,6 +98,30 @@
     <Compile Include="frm\frm_giaodien_noi_luc.Designer.cs">
       <DependentUpon>frm_giaodien_noi_luc.cs</DependentUpon>
     </Compile>
+    <Compile Include="frm_giathiethamluongcotthep.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_giathiethamluongcotthep.Designer.cs">
+      <DependentUpon>frm_giathiethamluongcotthep.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frm_kiemtrahamluongcotthep.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_kiemtrahamluongcotthep.Designer.cs">
+      <DependentUpon>frm_kiemtrahamluongcotthep.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frm_Noiluc.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_Noiluc.Designer.cs">
+      <DependentUpon>frm_Noiluc.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frm_Start.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_Start.Designer.cs">
+      <DependentUpon>frm_Start.cs</DependentUpon>
+    </Compile>
     <Compile Include="frm_tietdiencot.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -119,17 +143,33 @@
     <Compile Include="Model\TaiTrong\layer_San.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="test.cs">
+    <Compile Include="frm_chon_Vat_lieu.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="test.Designer.cs">
-      <DependentUpon>test.cs</DependentUpon>
+    <Compile Include="frm_chon_Vat_lieu.Designer.cs">
+      <DependentUpon>frm_chon_Vat_lieu.cs</DependentUpon>
     </Compile>
+    <Compile Include="TinhToan\HamTinhToan.cs" />
+    <Compile Include="TinhToan\TinhToanDoLechTamNgauNhien.cs" />
+    <Compile Include="TinhToan\TinhToanDolechTamTinhHoc.cs" />
+    <Compile Include="TinhToan\TrungTamTinhToan.cs" />
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="frm\frm_giaodien_noi_luc.resx">
       <DependentUpon>frm_giaodien_noi_luc.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_giathiethamluongcotthep.resx">
+      <DependentUpon>frm_giathiethamluongcotthep.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_kiemtrahamluongcotthep.resx">
+      <DependentUpon>frm_kiemtrahamluongcotthep.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_Noiluc.resx">
+      <DependentUpon>frm_Noiluc.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_Start.resx">
+      <DependentUpon>frm_Start.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="frm_tietdiencot.resx">
       <DependentUpon>frm_tietdiencot.cs</DependentUpon>
@@ -144,8 +184,8 @@
       <DependentUpon>Resources.resx</DependentUpon>
       <DesignTime>True</DesignTime>
     </Compile>
-    <EmbeddedResource Include="test.resx">
-      <DependentUpon>test.cs</DependentUpon>
+    <EmbeddedResource Include="frm_chon_Vat_lieu.resx">
+      <DependentUpon>frm_chon_Vat_lieu.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="ApplicationCotLechTamPhang_TemporaryKey.pfx" />
     <None Include="Properties\Settings.settings">
@@ -168,6 +208,9 @@
     <None Include="Resources\cs_48px.png" />
     <None Include="Resources\microsoft_stream_2019_96px.png" />
     <None Include="Resources\Capture.PNG" />
+    <None Include="Resources\Capture1.PNG" />
+    <None Include="Resources\chieucaovungnen.PNG" />
+    <None Include="Resources\logo_trans %281%29.png" />
     <Content Include="Treetog-I-Search.ico" />
   </ItemGroup>
   <ItemGroup>

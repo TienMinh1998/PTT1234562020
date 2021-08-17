@@ -13,7 +13,7 @@ namespace ApplicationCotLechTamPhang
         {
             CuongDoChiuNen_Rb = 14.5;
             CuongDOChiuKeo_Rbt = 10.5;
-            EB = 30000000;
+            EB = 30;
             name = "B25";
             donvi = "Mpa";
         }

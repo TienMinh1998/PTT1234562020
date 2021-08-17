@@ -1,7 +1,7 @@
 ﻿
 namespace ApplicationCotLechTamPhang
 {
-    partial class test
+    partial class frm_chon_Vat_lieu
     {
         /// <summary>
         /// Required designer variable.
@@ -30,7 +30,7 @@ namespace ApplicationCotLechTamPhang
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(test));
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frm_chon_Vat_lieu));
             this.DataGridViewImageColumn1 = new System.Windows.Forms.DataGridViewImageColumn();
             this.Label3 = new System.Windows.Forms.Label();
             this.gunaElipse1 = new Guna.UI.WinForms.GunaElipse(this.components);
@@ -49,9 +49,9 @@ namespace ApplicationCotLechTamPhang
             this.label11 = new System.Windows.Forms.Label();
             this.guna2Button1 = new Guna.UI2.WinForms.Guna2Button();
             this.gunaElipsePanel1 = new Guna.UI.WinForms.GunaElipsePanel();
-            this.GunaAdvenceButton6 = new Guna.UI.WinForms.GunaAdvenceButton();
             this.btn_ok = new System.Windows.Forms.GroupBox();
             this.guna2DragControl1 = new Guna.UI2.WinForms.Guna2DragControl(this.components);
+            this.GunaAdvenceButton6 = new Guna.UI.WinForms.GunaAdvenceButton();
             this.groupBox1.SuspendLayout();
             this.gunaElipsePanel1.SuspendLayout();
             this.btn_ok.SuspendLayout();
@@ -224,6 +224,7 @@ namespace ApplicationCotLechTamPhang
             this.groupBox1.Size = new System.Drawing.Size(461, 472);
             this.groupBox1.TabIndex = 23;
             this.groupBox1.TabStop = false;
+            this.groupBox1.Enter += new System.EventHandler(this.groupBox1_Enter);
             // 
             // label10
             // 
@@ -304,6 +305,21 @@ namespace ApplicationCotLechTamPhang
             this.gunaElipsePanel1.Size = new System.Drawing.Size(534, 24);
             this.gunaElipsePanel1.TabIndex = 25;
             // 
+            // btn_ok
+            // 
+            this.btn_ok.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(46)))), ((int)(((byte)(120)))), ((int)(((byte)(150)))));
+            this.btn_ok.Controls.Add(this.Label3);
+            this.btn_ok.Controls.Add(this.guna2Button1);
+            this.btn_ok.Location = new System.Drawing.Point(12, 30);
+            this.btn_ok.Name = "btn_ok";
+            this.btn_ok.Size = new System.Drawing.Size(512, 573);
+            this.btn_ok.TabIndex = 26;
+            this.btn_ok.TabStop = false;
+            // 
+            // guna2DragControl1
+            // 
+            this.guna2DragControl1.TargetControl = this.gunaElipsePanel1;
+            // 
             // GunaAdvenceButton6
             // 
             this.GunaAdvenceButton6.AnimationHoverSpeed = 0.07F;
@@ -335,22 +351,7 @@ namespace ApplicationCotLechTamPhang
             this.GunaAdvenceButton6.TabIndex = 3;
             this.GunaAdvenceButton6.Click += new System.EventHandler(this.GunaAdvenceButton6_Click);
             // 
-            // btn_ok
-            // 
-            this.btn_ok.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(46)))), ((int)(((byte)(120)))), ((int)(((byte)(150)))));
-            this.btn_ok.Controls.Add(this.Label3);
-            this.btn_ok.Controls.Add(this.guna2Button1);
-            this.btn_ok.Location = new System.Drawing.Point(12, 30);
-            this.btn_ok.Name = "btn_ok";
-            this.btn_ok.Size = new System.Drawing.Size(512, 573);
-            this.btn_ok.TabIndex = 26;
-            this.btn_ok.TabStop = false;
-            // 
-            // guna2DragControl1
-            // 
-            this.guna2DragControl1.TargetControl = this.gunaElipsePanel1;
-            // 
-            // test
+            // frm_chon_Vat_lieu
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -368,7 +369,7 @@ namespace ApplicationCotLechTamPhang
             this.Controls.Add(this.groupBox1);
             this.Controls.Add(this.btn_ok);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
-            this.Name = "test";
+            this.Name = "frm_chon_Vat_lieu";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterParent;
             this.Text = "test";
             this.Load += new System.EventHandler(this.test_Load);

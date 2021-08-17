@@ -70,7 +70,7 @@ namespace ApplicationCotLechTamPhang
 
         private void btn_chon_vat_lieu_Click(object sender, EventArgs e)
         {
-            test frm_chon_vat_lieu = new test();
+            frm_chon_Vat_lieu frm_chon_vat_lieu = new frm_chon_Vat_lieu();
             this.Opacity = 0.7;
             frm_chon_vat_lieu.ShowDialog();
             this.Opacity = 1;
@@ -111,6 +111,21 @@ namespace ApplicationCotLechTamPhang
             this.Opacity = 0.6;
             frm_noi_luc.ShowDialog();
             this.Opacity = 1;
+
+        }
+
+        private void btn_nhap_noi_luc_Click(object sender, EventArgs e)
+        {
+            frm_Noiluc frm = new frm_Noiluc();
+            this.Opacity = 0.7;
+            frm.ShowDialog();
+            this.Opacity = 1;
+        }
+
+        private void btn_gia_thiet_ham_luong_cot_Thep_Click(object sender, EventArgs e)
+        {
+            frm_giathiethamluongcotthep frm_giathiet = new frm_giathiethamluongcotthep();
+            frm_giathiet.ShowDialog();
 
         }
     }

@@ -10,13 +10,17 @@ using System.Windows.Forms;
 using ApplicationCotLechTamPhang.Model;
 using ApplicationCotLechTamPhang.HamDungChung;
 using ApplicationCotLechTamPhang.Model.CotThep;
+using ApplicationCotLechTamPhang.TinhToan;
 
 
 namespace ApplicationCotLechTamPhang
 {
-    public partial class test : Form
+    public partial class frm_chon_Vat_lieu : Form
     {
-        public test()
+
+        public TrungTamTinhToan trungTamTinhToan;
+
+        public frm_chon_Vat_lieu()
         {
             InitializeComponent();
         }
@@ -130,14 +134,27 @@ namespace ApplicationCotLechTamPhang
 
         private void txt_lop_bao_ve_TextChanged(object sender, EventArgs e)
         {
-            DuLieuDungChung.lopbaove = txt_lop_bao_ve.Text;
-            Main.Intance.txt_lop_bao_ve.Text = DuLieuDungChung.lopbaove;
 
+            DuLieuDungChung.a = txt_lop_bao_ve.Text;
+            Main.Intance.txt_lop_bao_ve.Text = DuLieuDungChung.a;
+
+            // Tính toán ho 
+            if (txt_lop_bao_ve.Text != "")
+            {
+                trungTamTinhToan = new TrungTamTinhToan();
+                trungTamTinhToan.tinhtoan_ho();
+            }
+           
         }
 
         private void txt_lop_bao_ve_KeyPress(object sender, KeyPressEventArgs e)
         {
             KiemTraNgoaile.BatBuocNhapSo(sender,e);
+
+        }
+
+        private void groupBox1_Enter(object sender, EventArgs e)
+        {
 
         }
     }

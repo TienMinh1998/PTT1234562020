@@ -73,9 +73,39 @@ namespace ApplicationCotLechTamPhang.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap Capture1 {
+            get {
+                object obj = ResourceManager.GetObject("Capture1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap chieucaovungnen {
+            get {
+                object obj = ResourceManager.GetObject("chieucaovungnen", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap cs_48px {
             get {
                 object obj = ResourceManager.GetObject("cs_48px", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap logo_trans__1_ {
+            get {
+                object obj = ResourceManager.GetObject("logo_trans (1)", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
